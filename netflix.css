@@ -1,0 +1,132 @@
+*{
+  padding:0;
+  margin: 0;
+}
+body{
+  background: black;
+}
+#header{
+ background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/3d6cf7c4-ad17-457a-b6cf-ea952926ba74/54a0de92-feb4-4891-8cb3-00a794ec89f6/IN-en-20230206-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+ height:90vh;
+}
+.cont{
+  background: rgb(0 0 0 / 40%);
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+height: 100vh;
+}
+.container {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.logo{
+  width: 60%;
+  padding: 30px;
+}
+.eng{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 36px;
+  margin:40px 20px ;
+  border-radius: 8px;
+}
+.sign{
+  background: #E50914;
+  border: 1px solid #E50914;
+  color: white;
+  padding: 6px 16px;
+  margin-top:40px ;
+  border-radius: 8px;
+}
+h1{
+  color: white;
+ font-size: 48px;
+ font-weight: 800;
+ padding: 5px;
+}
+h3{
+  color:white;
+  padding: 10px;
+  font-weight: 350;
+}
+h4{
+  color: white;
+  padding: 15px;
+  font-weight: 350;
+}
+.email button{
+  background: #E50914;
+border-radius: 8px;
+color: white;
+padding: 15px 30px;
+margin: 0px 0px 0px 8px;
+}
+.email input{
+  /* display: flex; */
+  background: #fff;
+  padding: 20px 30px 8px;
+  border-radius: 4px;
+  width:383px;
+  border-color: none;
+}
+.content1{
+text-align: center;
+margin-top: 20%;
+}
+p{
+  color: white;
+}
+.para
+{
+  display:inline;
+}
+.box1{
+  border:10px solid #282A3A;
+ margin: 0;
+border-left: none;
+border-right: none;
+ padding: 32px 0;
+ width: 100%;
+ height:60%;
+ /* margin-top: 40%; */
+}
+.box2{
+  border:10px solid #282A3A;
+ margin: 0;
+border-left: none;
+border-right: none;
+ padding: 32px 0;
+ width: 100%;
+ height:100%;
+}
+.content2{
+  align-items:center;
+}
+.box2{
+/* background-color: grey; */
+}
+@media (min-width: 2600px) {
+    .container{
+        max-width: 2000px;
+    }
+}
+.accordion {
+  background-color: #222222;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #434242;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
